@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio</title>
+  <link rel="stylesheet" href="/shared/style.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="bar sbar">
+    <h1>Studio</h1>
+    <input id="title" class="title" aria-label="Song title" value="Untitled song">
+    <span class="spacer"></span>
+    <button id="undo">Undo</button>
+    <button id="redo">Redo</button>
+    <button id="new">New</button>
+    <button id="open">Open…</button>
+    <button id="save">Save</button>
+    <select id="export" aria-label="Export"><option value="">Export…</option><option value="midi">MIDI and notes (.mid, .notes.md)</option><option value="bundle">Bundle for AI music tools</option><option value="pl">Prolog form (.pl)</option></select>
+  </header>
+  <div class="transport" role="toolbar" aria-label="Transport">
+    <button id="play" class="primary" title="Play from the playhead (space)">▶ Play</button>
+    <button id="stop" title="Stop">■</button>
+    <button id="rec" title="Record humming as notes">● Hum</button>
+    <span id="pos" class="pos">1.1</span>
+    <label>BPM <input id="bpm" type="number" min="20" max="300" step="1" inputmode="decimal"></label>
+    <label>Time <select id="sig"><option value="4/4">4/4</option><option value="3/4">3/4</option><option value="6/8">6/8</option><option value="2/4">2/4</option></select></label>
+    <label>Snap <select id="grid"></select></label>
+    <label>Zoom <input id="zoom" type="range" min="25" max="400" step="5"> <span id="zoomText"></span></label>
+    <button id="quantise" title="Quantise the selected clips to the snap grid">Quantise</button>
+    <span class="sep"></span>
+    <button id="importMC" title="Load a Music-Composer song (.mid, with its _meta.txt)">Music-Composer song…</button>
+    <input id="file" type="file" accept=".mid,.midi,.txt,audio/midi" multiple hidden>
+    <select id="addTrack" aria-label="Add a track"><option value="">Add a track…</option><option value="midi">MIDI</option><option value="guitar">Guitar</option><option value="vocal">Sung lyrics</option></select>
+  </div>
+  <main class="studio">
+    <section class="arrange panel">
+      <div class="lanes" id="lanes">
+        <div class="heads" id="heads"></div>
+        <div class="timeline" id="timeline" tabindex="0" aria-label="Arrangement: drag clips (Shift lines them up with other clips and bars), arrow keys nudge">
+          <div class="ruler" id="ruler"></div>
+          <div class="tracks" id="tracks"></div>
+          <div class="playhead" id="playhead"></div>
+        </div>
+      </div>
+      <p class="note">Drag a clip to move it; hold Shift to line it up with other clips and bar lines. Arrow keys nudge by the snap (Shift: a bar). Click the ruler to move the playhead.</p>
+    </section>
+    <aside class="panel side">
+      <nav class="tabs" id="tabs" role="tablist"></nav>
+      <div id="side"></div>
+    </aside>
+  </main>
+  <form id="say" class="row say"><input id="sayText" type="text" placeholder='Tell Lucian: "tag the chorus as background music", "quantise it to eighth notes", "add a guitar part C G Am F", "sing &quot;calm in ten minutes&quot; on the verse"'><button>Do</button></form>
+  <p id="reply" class="quiet" aria-live="polite"></p>
+</body>
+</html>

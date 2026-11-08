@@ -1,0 +1,8 @@
+{
+  "name": "studio",
+  "version": "0.1.0",
+  "description": "Studio: Sound Sequencer MR for Lucian Office: arrange MIDI samples with notes on how to interpret them, quantise, hum notes, tag Music-Composer sections, export",
+  "type": "module",
+  "scripts": { "test": "node --test test/*.test.js" },
+  "license": "BSD-3-Clause"
+}

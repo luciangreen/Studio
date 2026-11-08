@@ -1,0 +1,53 @@
+body { margin: 0; }
+.sbar { flex-wrap: wrap; gap: 8px; }
+.sbar .title { font: inherit; font-weight: 600; border: 1px solid transparent; background: transparent; padding: 4px 6px; min-width: 8em; }
+.transport { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 8px 12px; border-bottom: 1px solid #8884; }
+.transport label { display: flex; gap: 4px; align-items: center; font-size: .9em; }
+.transport input[type=number] { width: 4.5em; }
+.transport .sep { width: 1px; height: 22px; background: #8885; }
+.transport .pos { font: 600 1rem ui-monospace, monospace; min-width: 4em; text-align: center; background: #222; color: #9f9; border-radius: 4px; padding: 3px 8px; }
+#rec.on { background: #c33; color: #fff; border-color: #c33; }
+main.studio { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 340px); gap: 12px; padding: 12px; align-items: start; }
+.studio .panel { margin: 0; min-width: 0; }
+.lanes { display: grid; grid-template-columns: 150px minmax(0, 1fr); border: 1px solid #8884; border-radius: 6px; overflow: hidden; background: #fafaf7; }
+.heads { border-right: 1px solid #8884; padding-top: 24px; background: #f0efe9; }
+.head { height: 64px; box-sizing: border-box; padding: 3px 5px; border-bottom: 1px solid #8883; display: flex; flex-direction: column; gap: 2px; font-size: 12px; overflow: hidden; }
+.head input, .head select { font: inherit; width: 100%; box-sizing: border-box; padding: 0 3px; height: 18px; min-height: 0; margin: 0; border-radius: 3px; }
+.head .hrow { display: flex; gap: 4px; align-items: center; height: 18px; }
+.head .hrow .note { flex: 1; font-size: 11px; }
+.head button { padding: 0 6px; font-size: 11px; height: 18px; min-height: 0; line-height: 16px; }
+.head button.on { background: #e8c547; }
+.timeline { position: relative; overflow-x: auto; overflow-y: hidden; outline: none; touch-action: pan-x; }
+.ruler { position: relative; height: 24px; border-bottom: 1px solid #8885; background: #eeece4; cursor: pointer; font-size: 11px; }
+.ruler .bar { position: absolute; top: 0; height: 24px; border-left: 1px solid #8887; padding-left: 3px; line-height: 24px; color: #555; }
+.tracks { position: relative; }
+.lane { position: relative; height: 64px; border-bottom: 1px solid #8883; }
+.lane .gl { position: absolute; top: 0; bottom: 0; border-left: 1px solid #0000000d; }
+.lane .gl.barl { border-left-color: #0000002a; }
+.clip { position: absolute; top: 4px; height: 56px; box-sizing: border-box; border-radius: 6px; border: 1px solid #3a6fb0; background: #cfe0f7cc; overflow: hidden; cursor: grab; touch-action: none; user-select: none; }
+.clip.sel { border: 2px solid #1a3e75; box-shadow: 0 0 0 2px #fff8; }
+.clip .cn { position: absolute; left: 4px; top: 2px; right: 4px; font-size: 11px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none; }
+.clip svg { position: absolute; left: 0; top: 16px; width: 100%; height: 38px; pointer-events: none; }
+.clip.tag-background { background: #d8f0dccc; border-color: #3c8f55; }
+.clip.tag-sound { background: #f6e3c9cc; border-color: #b0782e; }
+.clip.tag-vocal { background: #ead9f5cc; border-color: #7d4aa6; }
+.clip.tag-expand { background: #f7d6d6cc; border-color: #b04545; }
+.playhead { position: absolute; top: 0; bottom: 0; width: 2px; background: #d33; pointer-events: none; }
+.tabs { display: flex; gap: 4px; flex-wrap: wrap; border-bottom: 1px solid #8884; margin-bottom: 8px; }
+.tabs button.on { font-weight: 600; border-bottom: 2px solid currentColor; }
+.side h3 { font-size: .95rem; margin: 12px 0 4px; }
+.side label { display: block; margin: 6px 0; font-size: .9em; }
+.side label > input, .side label > textarea, .side label > select { display: block; width: 100%; box-sizing: border-box; font: inherit; margin-top: 2px; }
+.side textarea { min-height: 4em; }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+.row > input[type=text] { flex: 1; min-width: 5em; }
+.sect { display: flex; gap: 6px; align-items: center; padding: 4px 0; border-bottom: 1px solid #8883; flex-wrap: wrap; }
+.sect b { flex: 1; min-width: 6em; }
+.note { font-size: .82em; color: #555; }
+.say { margin: 0 12px; }
+#reply { margin: 6px 12px 14px; }
+@media (max-width: 860px) {
+  main.studio { grid-template-columns: 1fr; padding: 8px; }
+  .lanes { grid-template-columns: 96px minmax(0, 1fr); }
+  .sbar h1 { font-size: 1.1rem; }
+}
