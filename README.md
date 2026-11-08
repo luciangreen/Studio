@@ -42,3 +42,7 @@ The tests cover:
 - **Guitar** strums and **sung** syllables.
 - The **notes**, the **prompt** and the **AI bundle**.
 - The **character's commands**, with undo.
+
+## Inputs and outputs
+
+`io/ios.txt` lists 200 inputs and the outputs they give, from real runs of this repo's functions (the list of functions is in `io/cases.mjs`; the inputs come from a fixed seed, so they are the same every time). `npm test` runs them again and fails if any output changes. If a change is meant, run `npm run ios` to write the new outputs and check the diff.
