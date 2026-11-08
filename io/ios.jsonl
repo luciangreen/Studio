@@ -1,0 +1,200 @@
+{"n":1,"name":"noteName","input":[76],"output":"E5"}
+{"n":2,"name":"hzToMidi","input":[440],"output":69}
+{"n":3,"name":"midiToHz","input":[107],"output":3951.06641}
+{"n":4,"name":"parseChord","input":[""],"output":null}
+{"n":5,"name":"voicing","input":["F"],"output":[41,48,53,57,60,65]}
+{"n":6,"name":"guitarNotes","input":[["F#m","Dm7","Gsus4"],"D D D D"],"output":[{"tick":0,"duration":480,"pitch":42,"velocity":80},{"tick":12,"duration":468,"pitch":45,"velocity":80},{"tick":24,"duration":456,"pitch":49,"velocity":80},{"tick":36,"duration":444,"pitch":54,"velocity":80},{"tick":48,"duration":432,"pitch":57,"velocity":80},{"tick":60,"duration":420,"pitch":61,"velocity":80},{"tick":480,"duration":480,"pitch":42,"velocity":80},{"tick":492,"duration":468,"pitch":45,"velocity":80},{"tick":504,"duration":456,"pitch":49,"velocity":80},{"tick":516,"duration":444,"pitch":54,"velocity":80},{"tick":528,"duration":432,"pitch":57,"velocity":80},{"tick":540,"duration":420,"pitch":61,"velocity":80}]}
+{"n":7,"name":"syllables","input":["the teacher music"],"output":["the","teac-","her","mu-","sic"]}
+{"n":8,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":56,"vel":90},{"tick":480,"dur":480,"pitch":63,"vel":90},{"tick":960,"dur":480,"pitch":71,"vel":90}],"book happy"],"output":[{"tick":0,"dur":480,"pitch":56,"vel":90,"lyric":"book"},{"tick":480,"dur":480,"pitch":63,"vel":90,"lyric":"hap-"},{"tick":960,"dur":480,"pitch":71,"vel":90,"lyric":"py"}]}
+{"n":9,"name":"sectionName","input":["c2"],"output":"Chorus 2"}
+{"n":10,"name":"parseMeta","input":["[[Garden], [128], [[v1, \"garden sells about\"], [c, \"book meditates idea house dog\"]]]."],"output":{}}
+{"n":11,"name":"MIDI file round trip","input":[90,[{"tick":0,"dur":120,"pitch":59,"vel":76},{"tick":240,"dur":120,"pitch":53,"vel":103},{"tick":480,"dur":240,"pitch":52,"vel":63},{"tick":720,"dur":120,"pitch":71,"vel":116}]],"output":{"division":480,"bpm":90,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":52,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":53,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":59,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":71,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":12,"name":"humToNotes","input":[[{"midi":72,"seconds":0.5}],100],"output":[]}
+{"n":13,"name":"barBeat","input":[3,20317],"output":"15.1"}
+{"n":14,"name":"noteName","input":[104],"output":"Ab7"}
+{"n":15,"name":"hzToMidi","input":[466.16],"output":69.99986}
+{"n":16,"name":"midiToHz","input":[101],"output":2793.825851}
+{"n":17,"name":"parseChord","input":["A/C#"],"output":null}
+{"n":18,"name":"voicing","input":[""],"output":[]}
+{"n":19,"name":"guitarNotes","input":[["C"],"D"],"output":[{"tick":0,"duration":1920,"pitch":48,"velocity":80},{"tick":12,"duration":1908,"pitch":52,"velocity":80},{"tick":24,"duration":1896,"pitch":55,"velocity":80},{"tick":36,"duration":1884,"pitch":60,"velocity":80},{"tick":48,"duration":1872,"pitch":64,"velocity":80}]}
+{"n":20,"name":"syllables","input":["false with fire"],"output":["false","with","fire"]}
+{"n":21,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":58,"vel":90},{"tick":480,"dur":480,"pitch":69,"vel":90},{"tick":960,"dur":480,"pitch":75,"vel":90},{"tick":1440,"dur":480,"pitch":57,"vel":90},{"tick":1920,"dur":480,"pitch":76,"vel":90}],"tree"],"output":[{"tick":0,"dur":480,"pitch":58,"vel":90,"lyric":"tree"},{"tick":480,"dur":480,"pitch":69,"vel":90},{"tick":960,"dur":480,"pitch":75,"vel":90},{"tick":1440,"dur":480,"pitch":57,"vel":90},{"tick":1920,"dur":480,"pitch":76,"vel":90}]}
+{"n":22,"name":"sectionName","input":["v1"],"output":"Verse 1"}
+{"n":23,"name":"parseMeta","input":["[[A song], [99], [[v1, \"with about writes simple\"], [c, \"logic a runs false thinks\"]]]."],"output":null}
+{"n":24,"name":"MIDI file round trip","input":[60,[{"tick":0,"dur":240,"pitch":60,"vel":50},{"tick":240,"dur":120,"pitch":50,"vel":66},{"tick":480,"dur":480,"pitch":72,"vel":50},{"tick":720,"dur":240,"pitch":67,"vel":58}]],"output":{"division":480,"bpm":60,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":50,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":60,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":67,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":72,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":25,"name":"humToNotes","input":[[{"midi":59,"seconds":0.5},{"midi":72,"seconds":0.5},{"midi":55,"seconds":0.3}],90],"output":[]}
+{"n":26,"name":"barBeat","input":[6,9891],"output":"4.3"}
+{"n":27,"name":"noteName","input":[84],"output":"C6"}
+{"n":28,"name":"hzToMidi","input":[27.5],"output":21}
+{"n":29,"name":"midiToHz","input":[43],"output":97.998859}
+{"n":30,"name":"parseChord","input":["H"],"output":null}
+{"n":31,"name":"voicing","input":["A/C#"],"output":[]}
+{"n":32,"name":"guitarNotes","input":[["Am","C","G","Dm7"],"DUDUDUDU"],"output":[{"tick":0,"duration":240,"pitch":45,"velocity":80},{"tick":12,"duration":228,"pitch":52,"velocity":80},{"tick":24,"duration":216,"pitch":57,"velocity":80},{"tick":36,"duration":204,"pitch":60,"velocity":80},{"tick":48,"duration":192,"pitch":64,"velocity":80},{"tick":240,"duration":240,"pitch":64,"velocity":65},{"tick":252,"duration":228,"pitch":60,"velocity":65},{"tick":264,"duration":216,"pitch":57,"velocity":65},{"tick":276,"duration":204,"pitch":52,"velocity":65},{"tick":480,"duration":240,"pitch":45,"velocity":80},{"tick":492,"duration":228,"pitch":52,"velocity":80},{"tick":504,"duration":216,"pitch":57,"velocity":80}]}
+{"n":33,"name":"syllables","input":["false runs fire"],"output":["false","runs","fire"]}
+{"n":34,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":68,"vel":90},{"tick":480,"dur":480,"pitch":69,"vel":90},{"tick":960,"dur":480,"pitch":60,"vel":90},{"tick":1440,"dur":480,"pitch":63,"vel":90},{"tick":1920,"dur":480,"pitch":61,"vel":90},{"tick":2400,"dur":480,"pitch":59,"vel":90}],"value cat"],"output":[{"tick":0,"dur":480,"pitch":68,"vel":90,"lyric":"va-"},{"tick":480,"dur":480,"pitch":69,"vel":90,"lyric":"lue"},{"tick":960,"dur":480,"pitch":60,"vel":90,"lyric":"cat"},{"tick":1440,"dur":480,"pitch":63,"vel":90},{"tick":1920,"dur":480,"pitch":61,"vel":90},{"tick":2400,"dur":480,"pitch":59,"vel":90}]}
+{"n":35,"name":"sectionName","input":["v1"],"output":"Verse 1"}
+{"n":36,"name":"parseMeta","input":["[[A song], [84], [[v1, \"blue tree\"], [c, \"the simple\"]]]."],"output":null}
+{"n":37,"name":"MIDI file round trip","input":[90,[{"tick":0,"dur":240,"pitch":63,"vel":100},{"tick":240,"dur":240,"pitch":57,"vel":87},{"tick":480,"dur":480,"pitch":77,"vel":44},{"tick":720,"dur":120,"pitch":71,"vel":96},{"tick":960,"dur":120,"pitch":60,"vel":77}]],"output":{"division":480,"bpm":90,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":57,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":60,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":63,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":71,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":77,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":38,"name":"humToNotes","input":[[{"midi":66,"seconds":0.3},{"midi":61,"seconds":0.5},{"midi":55,"seconds":0.5}],100],"output":[]}
+{"n":39,"name":"barBeat","input":[4,19276],"output":"11.1"}
+{"n":40,"name":"noteName","input":[31],"output":"G1"}
+{"n":41,"name":"hzToMidi","input":[880],"output":81}
+{"n":42,"name":"midiToHz","input":[33],"output":55}
+{"n":43,"name":"parseChord","input":["Gsus4"],"output":{"name":"Gsus4","root":7,"quality":"sus4","intervals":[0,5,7]}}
+{"n":44,"name":"voicing","input":["F"],"output":[41,48,53,57,60,65]}
+{"n":45,"name":"guitarNotes","input":[["Am","E7","Gsus4"],"D DU UDU"],"output":[{"tick":0,"duration":480,"pitch":45,"velocity":80},{"tick":12,"duration":468,"pitch":52,"velocity":80},{"tick":24,"duration":456,"pitch":57,"velocity":80},{"tick":36,"duration":444,"pitch":60,"velocity":80},{"tick":48,"duration":432,"pitch":64,"velocity":80},{"tick":480,"duration":240,"pitch":45,"velocity":80},{"tick":492,"duration":228,"pitch":52,"velocity":80},{"tick":504,"duration":216,"pitch":57,"velocity":80},{"tick":516,"duration":204,"pitch":60,"velocity":80},{"tick":528,"duration":192,"pitch":64,"velocity":80},{"tick":720,"duration":480,"pitch":64,"velocity":65},{"tick":732,"duration":468,"pitch":60,"velocity":65}]}
+{"n":46,"name":"syllables","input":["a rhythm"],"output":["a","rhythm"]}
+{"n":47,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":66,"vel":90}],"blue logic writes"],"output":[{"tick":0,"dur":480,"pitch":66,"vel":90,"lyric":"blue lo- gic wri- tes"}]}
+{"n":48,"name":"sectionName","input":["V3"],"output":"V3"}
+{"n":49,"name":"parseMeta","input":["[[Garden], [80], [[v1, \"reads tree list with tree\"], [c, \"the thinks cat list\"]]]."],"output":{}}
+{"n":50,"name":"MIDI file round trip","input":[100,[{"tick":0,"dur":120,"pitch":71,"vel":60}]],"output":{"division":480,"bpm":100,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":71,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":51,"name":"humToNotes","input":[[{"midi":66,"seconds":0.5}],90],"output":[]}
+{"n":52,"name":"barBeat","input":[3,936],"output":"1.2"}
+{"n":53,"name":"noteName","input":[56],"output":"Ab3"}
+{"n":54,"name":"hzToMidi","input":[466.16],"output":69.99986}
+{"n":55,"name":"midiToHz","input":[91],"output":1567.981744}
+{"n":56,"name":"parseChord","input":["Gsus4"],"output":{"name":"Gsus4","root":7,"quality":"sus4","intervals":[0,5,7]}}
+{"n":57,"name":"voicing","input":["Gsus4"],"output":[43,48,50,55,60,62]}
+{"n":58,"name":"guitarNotes","input":[["C","Cmaj7","Gsus4","C"],"D"],"output":[{"tick":0,"duration":1920,"pitch":48,"velocity":80},{"tick":12,"duration":1908,"pitch":52,"velocity":80},{"tick":24,"duration":1896,"pitch":55,"velocity":80},{"tick":36,"duration":1884,"pitch":60,"velocity":80},{"tick":48,"duration":1872,"pitch":64,"velocity":80},{"tick":1920,"duration":1920,"pitch":48,"velocity":80},{"tick":1932,"duration":1908,"pitch":52,"velocity":80},{"tick":1944,"duration":1896,"pitch":55,"velocity":80},{"tick":1956,"duration":1884,"pitch":59,"velocity":80},{"tick":1968,"duration":1872,"pitch":60,"velocity":80},{"tick":1980,"duration":1860,"pitch":64,"velocity":80},{"tick":3840,"duration":1920,"pitch":43,"velocity":80}]}
+{"n":59,"name":"syllables","input":["algorithm green reads writes rhythm"],"output":["al-","go-","rithm","green","reads","wri-","tes","rhythm"]}
+{"n":60,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":55,"vel":90},{"tick":480,"dur":480,"pitch":66,"vel":90},{"tick":960,"dur":480,"pitch":67,"vel":90}],"true and house student tree"],"output":[{"tick":0,"dur":480,"pitch":55,"vel":90,"lyric":"true"},{"tick":480,"dur":480,"pitch":66,"vel":90,"lyric":"and"},{"tick":960,"dur":480,"pitch":67,"vel":90,"lyric":"house stu- dent tree"}]}
+{"n":61,"name":"sectionName","input":["pc"],"output":"pc"}
+{"n":62,"name":"parseMeta","input":["[[A song], [133], [[v1, \"writes book meditates happy simple\"], [c, \"quickly data true number idea\"]]]."],"output":null}
+{"n":63,"name":"MIDI file round trip","input":[100,[{"tick":0,"dur":120,"pitch":53,"vel":122},{"tick":240,"dur":240,"pitch":49,"vel":92},{"tick":480,"dur":240,"pitch":53,"vel":53}]],"output":{"division":480,"bpm":100,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":49,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":53,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":53,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":64,"name":"humToNotes","input":[[{"midi":59,"seconds":0.3},{"midi":63,"seconds":0.3},{"midi":72,"seconds":0.5}],100],"output":[]}
+{"n":65,"name":"barBeat","input":[3,18995],"output":"14.1"}
+{"n":66,"name":"noteName","input":[23],"output":"B0"}
+{"n":67,"name":"hzToMidi","input":[1584],"output":91.175963}
+{"n":68,"name":"midiToHz","input":[36],"output":65.406391}
+{"n":69,"name":"parseChord","input":["Gsus4"],"output":{"name":"Gsus4","root":7,"quality":"sus4","intervals":[0,5,7]}}
+{"n":70,"name":"voicing","input":["H"],"output":[]}
+{"n":71,"name":"guitarNotes","input":[["E7","Dm7","Bb"],"DUDUDUDU"],"output":[{"tick":0,"duration":240,"pitch":40,"velocity":80},{"tick":12,"duration":228,"pitch":47,"velocity":80},{"tick":24,"duration":216,"pitch":50,"velocity":80},{"tick":36,"duration":204,"pitch":56,"velocity":80},{"tick":48,"duration":192,"pitch":59,"velocity":80},{"tick":60,"duration":180,"pitch":64,"velocity":80},{"tick":240,"duration":240,"pitch":64,"velocity":65},{"tick":252,"duration":228,"pitch":59,"velocity":65},{"tick":264,"duration":216,"pitch":56,"velocity":65},{"tick":276,"duration":204,"pitch":50,"velocity":65},{"tick":480,"duration":240,"pitch":40,"velocity":80},{"tick":492,"duration":228,"pitch":47,"velocity":80}]}
+{"n":72,"name":"syllables","input":["true tree house meditates music"],"output":["true","tree","house","me-","di-","ta-","tes","mu-","sic"]}
+{"n":73,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":63,"vel":90},{"tick":480,"dur":480,"pitch":75,"vel":90},{"tick":960,"dur":480,"pitch":66,"vel":90},{"tick":1440,"dur":480,"pitch":69,"vel":90},{"tick":1920,"dur":480,"pitch":64,"vel":90},{"tick":2400,"dur":480,"pitch":57,"vel":90}],"number house reads apple blue"],"output":[{"tick":0,"dur":480,"pitch":63,"vel":90,"lyric":"num-"},{"tick":480,"dur":480,"pitch":75,"vel":90,"lyric":"ber"},{"tick":960,"dur":480,"pitch":66,"vel":90,"lyric":"house"},{"tick":1440,"dur":480,"pitch":69,"vel":90,"lyric":"reads"},{"tick":1920,"dur":480,"pitch":64,"vel":90,"lyric":"apple"},{"tick":2400,"dur":480,"pitch":57,"vel":90,"lyric":"blue"}]}
+{"n":74,"name":"sectionName","input":["pc"],"output":"pc"}
+{"n":75,"name":"parseMeta","input":["[[A song], [99], [[v1, \"happy music student runs\"], [c, \"runs teacher sells the number\"]]]."],"output":null}
+{"n":76,"name":"MIDI file round trip","input":[120,[{"tick":0,"dur":240,"pitch":51,"vel":75},{"tick":240,"dur":480,"pitch":65,"vel":120},{"tick":480,"dur":480,"pitch":70,"vel":57},{"tick":720,"dur":240,"pitch":70,"vel":92}]],"output":{"division":480,"bpm":120,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":51,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":65,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":70,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":70,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":77,"name":"humToNotes","input":[[{"midi":61,"seconds":0.5},{"midi":55,"seconds":0.3},{"midi":59,"seconds":0.3}],100],"output":[]}
+{"n":78,"name":"barBeat","input":[4,23874],"output":"13.2"}
+{"n":79,"name":"noteName","input":[48],"output":"C3"}
+{"n":80,"name":"hzToMidi","input":[1630],"output":91.671558}
+{"n":81,"name":"midiToHz","input":[58],"output":233.081881}
+{"n":82,"name":"parseChord","input":["Am"],"output":{"name":"Am","root":9,"quality":"m","intervals":[0,3,7]}}
+{"n":83,"name":"voicing","input":["F#m"],"output":[42,45,49,54,57,61]}
+{"n":84,"name":"guitarNotes","input":[["F","Gsus4","Bb"],"DUDUDUDU"],"output":[{"tick":0,"duration":240,"pitch":41,"velocity":80},{"tick":12,"duration":228,"pitch":48,"velocity":80},{"tick":24,"duration":216,"pitch":53,"velocity":80},{"tick":36,"duration":204,"pitch":57,"velocity":80},{"tick":48,"duration":192,"pitch":60,"velocity":80},{"tick":60,"duration":180,"pitch":65,"velocity":80},{"tick":240,"duration":240,"pitch":65,"velocity":65},{"tick":252,"duration":228,"pitch":60,"velocity":65},{"tick":264,"duration":216,"pitch":57,"velocity":65},{"tick":276,"duration":204,"pitch":53,"velocity":65},{"tick":480,"duration":240,"pitch":41,"velocity":80},{"tick":492,"duration":228,"pitch":48,"velocity":80}]}
+{"n":85,"name":"syllables","input":["happy teacher book everybody"],"output":["hap-","py","teac-","her","book","e-","ve-","ry-","bo-","dy"]}
+{"n":86,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":67,"vel":90}],"algorithm music the"],"output":[{"tick":0,"dur":480,"pitch":67,"vel":90,"lyric":"al- go- rithm mu- sic the"}]}
+{"n":87,"name":"sectionName","input":["c"],"output":"Chorus"}
+{"n":88,"name":"parseMeta","input":["[[A song], [97], [[v1, \"prolog writes tree a\"], [c, \"about garden and apple the\"]]]."],"output":null}
+{"n":89,"name":"MIDI file round trip","input":[90,[{"tick":0,"dur":480,"pitch":61,"vel":93},{"tick":240,"dur":240,"pitch":62,"vel":74},{"tick":480,"dur":120,"pitch":70,"vel":97}]],"output":{"division":480,"bpm":90,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":61,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":62,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":70,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":90,"name":"humToNotes","input":[[{"midi":55,"seconds":0.3},{"midi":56,"seconds":0.5}],120],"output":[]}
+{"n":91,"name":"barBeat","input":[6,14539],"output":"6.1"}
+{"n":92,"name":"noteName","input":[91],"output":"G6"}
+{"n":93,"name":"hzToMidi","input":[27.5],"output":21}
+{"n":94,"name":"midiToHz","input":[43],"output":97.998859}
+{"n":95,"name":"parseChord","input":["H"],"output":null}
+{"n":96,"name":"voicing","input":["C"],"output":[48,52,55,60,64]}
+{"n":97,"name":"guitarNotes","input":[["Cmaj7","Cmaj7"],"D D D D"],"output":[{"tick":0,"duration":480,"pitch":48,"velocity":80},{"tick":12,"duration":468,"pitch":52,"velocity":80},{"tick":24,"duration":456,"pitch":55,"velocity":80},{"tick":36,"duration":444,"pitch":59,"velocity":80},{"tick":48,"duration":432,"pitch":60,"velocity":80},{"tick":60,"duration":420,"pitch":64,"velocity":80},{"tick":480,"duration":480,"pitch":48,"velocity":80},{"tick":492,"duration":468,"pitch":52,"velocity":80},{"tick":504,"duration":456,"pitch":55,"velocity":80},{"tick":516,"duration":444,"pitch":59,"velocity":80},{"tick":528,"duration":432,"pitch":60,"velocity":80},{"tick":540,"duration":420,"pitch":64,"velocity":80}]}
+{"n":98,"name":"syllables","input":["simple list book student book rhythm"],"output":["simple","list","book","stu-","dent","book","rhythm"]}
+{"n":99,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":66,"vel":90},{"tick":480,"dur":480,"pitch":64,"vel":90},{"tick":960,"dur":480,"pitch":62,"vel":90}],"blue simple writes false"],"output":[{"tick":0,"dur":480,"pitch":66,"vel":90,"lyric":"blue"},{"tick":480,"dur":480,"pitch":64,"vel":90,"lyric":"simple"},{"tick":960,"dur":480,"pitch":62,"vel":90,"lyric":"wri- tes false"}]}
+{"n":100,"name":"sectionName","input":["o"],"output":"Outro"}
+{"n":101,"name":"parseMeta","input":["[[A song], [133], [[v1, \"green green simple algorithm\"], [c, \"garden false teacher person the\"]]]."],"output":null}
+{"n":102,"name":"MIDI file round trip","input":[90,[{"tick":0,"dur":480,"pitch":61,"vel":84},{"tick":240,"dur":240,"pitch":60,"vel":102}]],"output":{"division":480,"bpm":90,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":60,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":61,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":103,"name":"humToNotes","input":[[{"midi":72,"seconds":0.3},{"midi":72,"seconds":0.3},{"midi":56,"seconds":0.3}],100],"output":[]}
+{"n":104,"name":"barBeat","input":[4,15904],"output":"9.2"}
+{"n":105,"name":"noteName","input":[53],"output":"F3"}
+{"n":106,"name":"hzToMidi","input":[1434],"output":89.453635}
+{"n":107,"name":"midiToHz","input":[86],"output":1174.659072}
+{"n":108,"name":"parseChord","input":["G"],"output":{"name":"G","root":7,"quality":"","intervals":[0,4,7]}}
+{"n":109,"name":"voicing","input":["Dm7"],"output":[50,53,57,60,62,65]}
+{"n":110,"name":"guitarNotes","input":[["G","E7"],"D DU UDU"],"output":[{"tick":0,"duration":480,"pitch":43,"velocity":80},{"tick":12,"duration":468,"pitch":47,"velocity":80},{"tick":24,"duration":456,"pitch":50,"velocity":80},{"tick":36,"duration":444,"pitch":55,"velocity":80},{"tick":48,"duration":432,"pitch":59,"velocity":80},{"tick":60,"duration":420,"pitch":67,"velocity":80},{"tick":480,"duration":240,"pitch":43,"velocity":80},{"tick":492,"duration":228,"pitch":47,"velocity":80},{"tick":504,"duration":216,"pitch":50,"velocity":80},{"tick":516,"duration":204,"pitch":55,"velocity":80},{"tick":528,"duration":192,"pitch":59,"velocity":80},{"tick":540,"duration":180,"pitch":67,"velocity":80}]}
+{"n":111,"name":"syllables","input":["quickly everybody"],"output":["quic-","kly","e-","ve-","ry-","bo-","dy"]}
+{"n":112,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":69,"vel":90},{"tick":480,"dur":480,"pitch":60,"vel":90}],"sells"],"output":[{"tick":0,"dur":480,"pitch":69,"vel":90,"lyric":"sells"},{"tick":480,"dur":480,"pitch":60,"vel":90}]}
+{"n":113,"name":"sectionName","input":["o"],"output":"Outro"}
+{"n":114,"name":"parseMeta","input":["[[Garden], [128], [[v1, \"and prolog number\"], [c, \"number green\"]]]."],"output":{}}
+{"n":115,"name":"MIDI file round trip","input":[90,[{"tick":0,"dur":480,"pitch":60,"vel":106},{"tick":240,"dur":480,"pitch":84,"vel":114},{"tick":480,"dur":480,"pitch":64,"vel":76},{"tick":720,"dur":120,"pitch":81,"vel":104}]],"output":{"division":480,"bpm":90,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":60,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":64,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":81,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":84,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":116,"name":"humToNotes","input":[[{"midi":59,"seconds":0.5}],100],"output":[]}
+{"n":117,"name":"barBeat","input":[6,166],"output":"1.1"}
+{"n":118,"name":"noteName","input":[77],"output":"F5"}
+{"n":119,"name":"hzToMidi","input":[27.5],"output":21}
+{"n":120,"name":"midiToHz","input":[41],"output":87.307058}
+{"n":121,"name":"parseChord","input":["C"],"output":{"name":"C","root":0,"quality":"","intervals":[0,4,7]}}
+{"n":122,"name":"voicing","input":["Ddim"],"output":[50,53,56,62,65,68]}
+{"n":123,"name":"guitarNotes","input":[["Cmaj7"],"D DU UDU"],"output":[{"tick":0,"duration":480,"pitch":48,"velocity":80},{"tick":12,"duration":468,"pitch":52,"velocity":80},{"tick":24,"duration":456,"pitch":55,"velocity":80},{"tick":36,"duration":444,"pitch":59,"velocity":80},{"tick":48,"duration":432,"pitch":60,"velocity":80},{"tick":60,"duration":420,"pitch":64,"velocity":80},{"tick":480,"duration":240,"pitch":48,"velocity":80},{"tick":492,"duration":228,"pitch":52,"velocity":80},{"tick":504,"duration":216,"pitch":55,"velocity":80},{"tick":516,"duration":204,"pitch":59,"velocity":80},{"tick":528,"duration":192,"pitch":60,"velocity":80},{"tick":540,"duration":180,"pitch":64,"velocity":80}]}
+{"n":124,"name":"syllables","input":["happy number buys fire"],"output":["hap-","py","num-","ber","buys","fire"]}
+{"n":125,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":56,"vel":90},{"tick":480,"dur":480,"pitch":74,"vel":90},{"tick":960,"dur":480,"pitch":69,"vel":90},{"tick":1440,"dur":480,"pitch":68,"vel":90},{"tick":1920,"dur":480,"pitch":61,"vel":90},{"tick":2400,"dur":480,"pitch":56,"vel":90}],"book buys false thinks teacher"],"output":[{"tick":0,"dur":480,"pitch":56,"vel":90,"lyric":"book"},{"tick":480,"dur":480,"pitch":74,"vel":90,"lyric":"buys"},{"tick":960,"dur":480,"pitch":69,"vel":90,"lyric":"false"},{"tick":1440,"dur":480,"pitch":68,"vel":90,"lyric":"thinks"},{"tick":1920,"dur":480,"pitch":61,"vel":90,"lyric":"teac-"},{"tick":2400,"dur":480,"pitch":56,"vel":90,"lyric":"her"}]}
+{"n":126,"name":"sectionName","input":["V3"],"output":"V3"}
+{"n":127,"name":"parseMeta","input":["[[Garden], [87], [[v1, \"writes algorithm green a writes\"], [c, \"teacher algorithm\"]]]."],"output":{}}
+{"n":128,"name":"MIDI file round trip","input":[60,[{"tick":0,"dur":120,"pitch":49,"vel":78},{"tick":240,"dur":120,"pitch":60,"vel":40},{"tick":480,"dur":240,"pitch":83,"vel":125},{"tick":720,"dur":120,"pitch":77,"vel":88},{"tick":960,"dur":120,"pitch":80,"vel":45}]],"output":{"division":480,"bpm":60,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":49,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":60,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":77,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":80,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":83,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":129,"name":"humToNotes","input":[[{"midi":56,"seconds":0.3}],120],"output":[]}
+{"n":130,"name":"barBeat","input":[4,8750],"output":"5.3"}
+{"n":131,"name":"noteName","input":[52],"output":"E3"}
+{"n":132,"name":"hzToMidi","input":[261.63],"output":60.000293}
+{"n":133,"name":"midiToHz","input":[73],"output":554.365262}
+{"n":134,"name":"parseChord","input":["Bb"],"output":{"name":"Bb","root":10,"quality":"","intervals":[0,4,7]}}
+{"n":135,"name":"voicing","input":["Ddim"],"output":[50,53,56,62,65,68]}
+{"n":136,"name":"guitarNotes","input":[["F#m","C","Dm7"],"D D D D"],"output":[{"tick":0,"duration":480,"pitch":42,"velocity":80},{"tick":12,"duration":468,"pitch":45,"velocity":80},{"tick":24,"duration":456,"pitch":49,"velocity":80},{"tick":36,"duration":444,"pitch":54,"velocity":80},{"tick":48,"duration":432,"pitch":57,"velocity":80},{"tick":60,"duration":420,"pitch":61,"velocity":80},{"tick":480,"duration":480,"pitch":42,"velocity":80},{"tick":492,"duration":468,"pitch":45,"velocity":80},{"tick":504,"duration":456,"pitch":49,"velocity":80},{"tick":516,"duration":444,"pitch":54,"velocity":80},{"tick":528,"duration":432,"pitch":57,"velocity":80},{"tick":540,"duration":420,"pitch":61,"velocity":80}]}
+{"n":137,"name":"syllables","input":["true meditates garden fire"],"output":["true","me-","di-","ta-","tes","gar-","den","fire"]}
+{"n":138,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":75,"vel":90},{"tick":480,"dur":480,"pitch":58,"vel":90},{"tick":960,"dur":480,"pitch":76,"vel":90},{"tick":1440,"dur":480,"pitch":55,"vel":90},{"tick":1920,"dur":480,"pitch":65,"vel":90}],"list"],"output":[{"tick":0,"dur":480,"pitch":75,"vel":90,"lyric":"list"},{"tick":480,"dur":480,"pitch":58,"vel":90},{"tick":960,"dur":480,"pitch":76,"vel":90},{"tick":1440,"dur":480,"pitch":55,"vel":90},{"tick":1920,"dur":480,"pitch":65,"vel":90}]}
+{"n":139,"name":"sectionName","input":["i"],"output":"Instrumental"}
+{"n":140,"name":"parseMeta","input":["[[Garden], [87], [[v1, \"quickly finds\"], [c, \"list writes the\"]]]."],"output":{}}
+{"n":141,"name":"MIDI file round trip","input":[90,[{"tick":0,"dur":480,"pitch":65,"vel":81},{"tick":240,"dur":480,"pitch":76,"vel":46},{"tick":480,"dur":480,"pitch":52,"vel":57},{"tick":720,"dur":240,"pitch":68,"vel":92}]],"output":{"division":480,"bpm":90,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":52,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":65,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":68,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":76,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":142,"name":"humToNotes","input":[[{"midi":61,"seconds":0.5}],120],"output":[]}
+{"n":143,"name":"barBeat","input":[4,15743],"output":"9.1"}
+{"n":144,"name":"noteName","input":[83],"output":"B5"}
+{"n":145,"name":"hzToMidi","input":[466.16],"output":69.99986}
+{"n":146,"name":"midiToHz","input":[100],"output":2637.020455}
+{"n":147,"name":"parseChord","input":["Ddim"],"output":{"name":"Ddim","root":2,"quality":"dim","intervals":[0,3,6]}}
+{"n":148,"name":"voicing","input":["Ddim"],"output":[50,53,56,62,65,68]}
+{"n":149,"name":"guitarNotes","input":[["Cmaj7","F#m"],"D D D D"],"output":[{"tick":0,"duration":480,"pitch":48,"velocity":80},{"tick":12,"duration":468,"pitch":52,"velocity":80},{"tick":24,"duration":456,"pitch":55,"velocity":80},{"tick":36,"duration":444,"pitch":59,"velocity":80},{"tick":48,"duration":432,"pitch":60,"velocity":80},{"tick":60,"duration":420,"pitch":64,"velocity":80},{"tick":480,"duration":480,"pitch":48,"velocity":80},{"tick":492,"duration":468,"pitch":52,"velocity":80},{"tick":504,"duration":456,"pitch":55,"velocity":80},{"tick":516,"duration":444,"pitch":59,"velocity":80},{"tick":528,"duration":432,"pitch":60,"velocity":80},{"tick":540,"duration":420,"pitch":64,"velocity":80}]}
+{"n":150,"name":"syllables","input":["simple value data"],"output":["simple","va-","lue","da-","ta"]}
+{"n":151,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":65,"vel":90},{"tick":480,"dur":480,"pitch":63,"vel":90},{"tick":960,"dur":480,"pitch":58,"vel":90},{"tick":1440,"dur":480,"pitch":64,"vel":90},{"tick":1920,"dur":480,"pitch":65,"vel":90},{"tick":2400,"dur":480,"pitch":59,"vel":90}],"dog about happy dog"],"output":[{"tick":0,"dur":480,"pitch":65,"vel":90,"lyric":"dog"},{"tick":480,"dur":480,"pitch":63,"vel":90,"lyric":"a-"},{"tick":960,"dur":480,"pitch":58,"vel":90,"lyric":"bout"},{"tick":1440,"dur":480,"pitch":64,"vel":90,"lyric":"hap-"},{"tick":1920,"dur":480,"pitch":65,"vel":90,"lyric":"py"},{"tick":2400,"dur":480,"pitch":59,"vel":90,"lyric":"dog"}]}
+{"n":152,"name":"sectionName","input":["b"],"output":"b"}
+{"n":153,"name":"parseMeta","input":["[[Garden], [80], [[v1, \"simple blue value false sells\"], [c, \"buys idea\"]]]."],"output":{}}
+{"n":154,"name":"MIDI file round trip","input":[140,[{"tick":0,"dur":240,"pitch":54,"vel":105},{"tick":240,"dur":120,"pitch":67,"vel":62},{"tick":480,"dur":120,"pitch":62,"vel":48}]],"output":{"division":480,"bpm":140,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":54,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":62,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":67,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":155,"name":"humToNotes","input":[[{"midi":62,"seconds":0.3}],100],"output":[]}
+{"n":156,"name":"barBeat","input":[3,8923],"output":"7.1"}
+{"n":157,"name":"noteName","input":[60],"output":"C4"}
+{"n":158,"name":"hzToMidi","input":[440],"output":69}
+{"n":159,"name":"midiToHz","input":[105],"output":3520}
+{"n":160,"name":"parseChord","input":["E7"],"output":{"name":"E7","root":4,"quality":"7","intervals":[0,4,7,10]}}
+{"n":161,"name":"voicing","input":["E7"],"output":[40,47,50,56,59,64]}
+{"n":162,"name":"guitarNotes","input":[["Am","F","E7"],"D D D D"],"output":[{"tick":0,"duration":480,"pitch":45,"velocity":80},{"tick":12,"duration":468,"pitch":52,"velocity":80},{"tick":24,"duration":456,"pitch":57,"velocity":80},{"tick":36,"duration":444,"pitch":60,"velocity":80},{"tick":48,"duration":432,"pitch":64,"velocity":80},{"tick":480,"duration":480,"pitch":45,"velocity":80},{"tick":492,"duration":468,"pitch":52,"velocity":80},{"tick":504,"duration":456,"pitch":57,"velocity":80},{"tick":516,"duration":444,"pitch":60,"velocity":80},{"tick":528,"duration":432,"pitch":64,"velocity":80},{"tick":960,"duration":480,"pitch":45,"velocity":80},{"tick":972,"duration":468,"pitch":52,"velocity":80}]}
+{"n":163,"name":"syllables","input":["reads thinks algorithm"],"output":["reads","thinks","al-","go-","rithm"]}
+{"n":164,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":60,"vel":90}],"green happy value happy"],"output":[{"tick":0,"dur":480,"pitch":60,"vel":90,"lyric":"green hap- py va- lue hap- py"}]}
+{"n":165,"name":"sectionName","input":["i"],"output":"Instrumental"}
+{"n":166,"name":"parseMeta","input":["[[Garden], [91], [[v1, \"person prolog\"], [c, \"garden buys quickly cat\"]]]."],"output":{}}
+{"n":167,"name":"MIDI file round trip","input":[120,[{"tick":0,"dur":120,"pitch":60,"vel":63},{"tick":240,"dur":240,"pitch":48,"vel":62}]],"output":{"division":480,"bpm":120,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":48,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":60,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":168,"name":"humToNotes","input":[[{"midi":62,"seconds":0.3},{"midi":67,"seconds":0.5},{"midi":60,"seconds":0.5}],120],"output":[]}
+{"n":169,"name":"barBeat","input":[6,2362],"output":"1.5"}
+{"n":170,"name":"noteName","input":[78],"output":"F#5"}
+{"n":171,"name":"hzToMidi","input":[261.63],"output":60.000293}
+{"n":172,"name":"midiToHz","input":[54],"output":184.997211}
+{"n":173,"name":"parseChord","input":[""],"output":null}
+{"n":174,"name":"voicing","input":["F#m"],"output":[42,45,49,54,57,61]}
+{"n":175,"name":"guitarNotes","input":[["Gsus4","C"],"D D D D"],"output":[{"tick":0,"duration":480,"pitch":43,"velocity":80},{"tick":12,"duration":468,"pitch":48,"velocity":80},{"tick":24,"duration":456,"pitch":50,"velocity":80},{"tick":36,"duration":444,"pitch":55,"velocity":80},{"tick":48,"duration":432,"pitch":60,"velocity":80},{"tick":60,"duration":420,"pitch":62,"velocity":80},{"tick":480,"duration":480,"pitch":43,"velocity":80},{"tick":492,"duration":468,"pitch":48,"velocity":80},{"tick":504,"duration":456,"pitch":50,"velocity":80},{"tick":516,"duration":444,"pitch":55,"velocity":80},{"tick":528,"duration":432,"pitch":60,"velocity":80},{"tick":540,"duration":420,"pitch":62,"velocity":80}]}
+{"n":176,"name":"syllables","input":["cat writes number logic cat"],"output":["cat","wri-","tes","num-","ber","lo-","gic","cat"]}
+{"n":177,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":67,"vel":90}],"sells"],"output":[{"tick":0,"dur":480,"pitch":67,"vel":90,"lyric":"sells"}]}
+{"n":178,"name":"sectionName","input":["c"],"output":"Chorus"}
+{"n":179,"name":"parseMeta","input":["[[A song], [101], [[v1, \"person house about\"], [c, \"dog logic cat teacher\"]]]."],"output":null}
+{"n":180,"name":"MIDI file round trip","input":[120,[{"tick":0,"dur":480,"pitch":65,"vel":105},{"tick":240,"dur":240,"pitch":73,"vel":110}]],"output":{"division":480,"bpm":120,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":65,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":73,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":181,"name":"humToNotes","input":[[{"midi":61,"seconds":0.3}],120],"output":[]}
+{"n":182,"name":"barBeat","input":[4,11315],"output":"6.4"}
+{"n":183,"name":"noteName","input":[91],"output":"G6"}
+{"n":184,"name":"hzToMidi","input":[27.5],"output":21}
+{"n":185,"name":"midiToHz","input":[80],"output":830.609395}
+{"n":186,"name":"parseChord","input":[""],"output":null}
+{"n":187,"name":"voicing","input":["Ddim"],"output":[50,53,56,62,65,68]}
+{"n":188,"name":"guitarNotes","input":[["G","F#m"],"D D D D"],"output":[{"tick":0,"duration":480,"pitch":43,"velocity":80},{"tick":12,"duration":468,"pitch":47,"velocity":80},{"tick":24,"duration":456,"pitch":50,"velocity":80},{"tick":36,"duration":444,"pitch":55,"velocity":80},{"tick":48,"duration":432,"pitch":59,"velocity":80},{"tick":60,"duration":420,"pitch":67,"velocity":80},{"tick":480,"duration":480,"pitch":43,"velocity":80},{"tick":492,"duration":468,"pitch":47,"velocity":80},{"tick":504,"duration":456,"pitch":50,"velocity":80},{"tick":516,"duration":444,"pitch":55,"velocity":80},{"tick":528,"duration":432,"pitch":59,"velocity":80},{"tick":540,"duration":420,"pitch":67,"velocity":80}]}
+{"n":189,"name":"syllables","input":["music house book buys apple beautiful"],"output":["mu-","sic","house","book","buys","apple","beau-","ti-","ful"]}
+{"n":190,"name":"singNotes","input":[[{"tick":0,"dur":480,"pitch":63,"vel":90},{"tick":480,"dur":480,"pitch":70,"vel":90}],"finds"],"output":[{"tick":0,"dur":480,"pitch":63,"vel":90,"lyric":"finds"},{"tick":480,"dur":480,"pitch":70,"vel":90}]}
+{"n":191,"name":"sectionName","input":["b"],"output":"b"}
+{"n":192,"name":"parseMeta","input":["[[A song], [123], [[v1, \"dog a\"], [c, \"number blue runs runs the\"]]]."],"output":null}
+{"n":193,"name":"MIDI file round trip","input":[90,[{"tick":0,"dur":240,"pitch":56,"vel":97},{"tick":240,"dur":240,"pitch":61,"vel":127},{"tick":480,"dur":240,"pitch":77,"vel":117},{"tick":720,"dur":240,"pitch":73,"vel":97},{"tick":960,"dur":480,"pitch":81,"vel":120}]],"output":{"division":480,"bpm":90,"num":4,"den":4,"notes":[{"track":1,"tick":0,"duration":1,"pitch":56,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":61,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":73,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":77,"velocity":90,"channel":0,"program":0},{"track":1,"tick":0,"duration":1,"pitch":81,"velocity":90,"channel":0,"program":0}],"lyrics":[],"markers":[],"texts":[],"names":["","Lead"]}}
+{"n":194,"name":"humToNotes","input":[[{"midi":67,"seconds":0.3},{"midi":58,"seconds":0.3},{"midi":70,"seconds":0.3}],90],"output":[]}
+{"n":195,"name":"barBeat","input":[4,531],"output":"1.2"}
+{"n":196,"name":"noteName","input":[101],"output":"F7"}
+{"n":197,"name":"hzToMidi","input":[880],"output":81}
+{"n":198,"name":"midiToHz","input":[72],"output":523.251131}
+{"n":199,"name":"parseChord","input":["Dm7"],"output":{"name":"Dm7","root":2,"quality":"m7","intervals":[0,3,7,10]}}
+{"n":200,"name":"voicing","input":["H"],"output":[]}
